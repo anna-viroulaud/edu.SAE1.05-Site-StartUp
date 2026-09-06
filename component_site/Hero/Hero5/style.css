@@ -19,7 +19,7 @@
     font-size: 2.8rem;
     font-weight: 700;
     letter-spacing: 2.6px;
-    color: var(--clr-white);
+    color: var(--clr-dark);
 }
 
 .hero__5-desc {
@@ -28,11 +28,11 @@
     font-size: 1.375rem;
     font-weight: 500;
     line-height: 1.5;
-    color: var(--clr-white);
+    color: var(--clr-gray);
 }
 
 .hero__5-nav__9 {
-    color: var(--clr-white);
+    color: var(--clr-dark);
     background-color: var(--clr-transparent);
     font-family: var(--ff-sans);
     margin: 1rem;
@@ -85,6 +85,7 @@ img {
 
 .hero__5-item-icon {
     transition: transform 0.2s ease-in-out;
+    filter: invert(80%);
 }
 
 .hero__5-item-icon:hover {
@@ -99,7 +100,7 @@ img {
 
 .hero__5-email {
     background-color: var(--clr-transparent);
-    color: white;
+    color: var(--clr-gray);
     width: 210px;
     padding: 10px 20px;
     padding-left: 1.5rem;
@@ -111,7 +112,7 @@ img {
 }
 
 .hero__5-email::placeholder {
-    color: rgb(255, 255, 255);
+    color: var(--clr-gray);
 }
 
 .hero__5-desc-2 {
@@ -121,5 +122,5 @@ img {
     font-size: 0.8rem;
     font-weight: 500;
     line-height: 1.5;
-    color: var(--clr-white);
+    color: var(--clr-gray);
 }
